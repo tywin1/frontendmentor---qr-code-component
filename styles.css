@@ -20,67 +20,45 @@
 }
 
 :root {
-    --font-family: 'Outfit', sans-serif;
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-    --color-white: hsl(0, 0%, 100%);
-    --color-slate-300: hsl(212, 45%, 89%);
-    --color-slate-500: hsl(216, 15%, 48%);
-    --color-slate-900: hsl(218, 44%, 22%);
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
 
 }
 body {
     margin: 0;
-    padding: 0;
-    font-family: var(--font-family);
-    font-weight: var(--font-weight-regular);
-    background-color: var(--color-slate-300);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     min-height: 100vh;
-}
-h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-.main {
+    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    max-width: 375px;
-    background-color: var(--color-white);
-    padding: 1em;
+    background-color: var(--slate-300);
 }
-.main-card__image img {
+.card {
+    max-width: 375px;
+    padding: 1em 1em 2em;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 1px solid var(--slate-300);
+}
+.card img {
+    display: block;
     width: 100%;
     border-radius: 10px;
 }
-.main-card__image {
-    display: flex;
+.card h2 {
+    margin: 1em 0.5em;
+    color: var(--slate-900);
 }
-.main-card__text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1em;
-    padding: 1.5em;
-}
-.main-card__text--header {
-    font-weight: var(--font-weight-bold);
-    color: var(--color-slate-900);
-    
-}
-.main-card__text--paragraph {
-    font-weight: var(--font-weight-regular);
-    color: var(--color-slate-500);
+.card p {
+    margin: 0 0.5em;
     font-size: 15px;
+    color: var(--slate-500);
 }
 .attribution {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 3em;
 }
