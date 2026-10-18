@@ -1,0 +1,86 @@
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+- White: hsl(0, 0%, 100%)
+- Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%)
+
+## Typography
+### Body Copy
+- Font size (paragraph): 15px
+### Font
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+    background-color: var(--color-slate-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    max-width: 375px;
+    background-color: var(--color-white);
+    padding: 1em;
+}
+.main-card__image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.main-card__image {
+    display: flex;
+}
+.main-card__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding: 1.5em;
+}
+.main-card__text--header {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-slate-900);
+    
+}
+.main-card__text--paragraph {
+    font-weight: var(--font-weight-regular);
+    color: var(--color-slate-500);
+    font-size: 15px;
+}
+.attribution {
+    text-align: center;
+    margin-top: 2em;
+}
