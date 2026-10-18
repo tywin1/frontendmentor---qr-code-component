@@ -11,8 +11,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 ### Links
-- Solution URL: (https://github.com/tywin1/frontendmentor---qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/tywin1/frontendmentor---qr-code-component
+- Live Site URL: https://tywin1.github.io/frontendmentor---qr-code-component
 
 ### Built with
 - VS Code
