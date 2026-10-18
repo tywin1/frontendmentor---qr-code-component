@@ -10,12 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/tywin1/frontendmentor---qr-code-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
@@ -26,9 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### What I learned
-
 Just reinforcing some basic things with the Frontend Mentor challenges.
 
 ## Author
-
 - Website - [Tywin1] (https://www.github.com/tywin1)
